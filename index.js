@@ -16,13 +16,12 @@ let minValInArr = Math.min(...anotherArr);
 console.log(`Maximum Value: ${minValInArr}`); //2
 
 //Count numbers of even and odd:
-let arr1 = [1, 2, 3, 4, 5]
-
+let arr1 = [1, 2, 3, 4, 5];
 let even = 0; //1 => 2 = 2
 let odd = 0; //1 => 2 => 3 = 3
-for(let i = 0; i<arr1.length; i++){
-  if( arr[i]%2 === 0 ){
-   even++;
+for (let i = 0; i < arr1.length; i++) {
+  if (arr[i] % 2 === 0) {
+    even++;
   } else {
     odd++;
   }
